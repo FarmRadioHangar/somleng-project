@@ -9,16 +9,10 @@ resource "aws_iam_role" "administrator" {
       "Effect": "Allow",
       "Principal": {
         "AWS": [
-          "${aws_iam_user.samnang.arn}",
-          "${aws_iam_user.dwilkie.arn}"
+          "${aws_iam_user.loic.arn}"
         ]
       },
-      "Action": "sts:AssumeRole",
-      "Condition": {
-        "Bool": {
-          "aws:MultiFactorAuthPresent": "true"
-        }
-      }
+      "Action": "sts:AssumeRole"
     }
   ]
 }

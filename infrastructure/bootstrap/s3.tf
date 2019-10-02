@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "infrastructure" {
-  bucket = "infrastructure.somleng.org"
+  bucket = "infrastructure.farmradio.org"
   acl    = "private"
 
   versioning {

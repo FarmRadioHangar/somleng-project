@@ -1,9 +1,5 @@
-output "samnang_user_arn" {
-  value = aws_iam_user.samnang.arn
-}
-
-output "dwilkie_user_arn" {
-  value = aws_iam_user.dwilkie.arn
+output "loic_user_arn" {
+  value = aws_iam_user.loic.arn
 }
 
 output "infrastructure_bucket" {

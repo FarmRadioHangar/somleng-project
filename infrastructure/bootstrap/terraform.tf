@@ -1,10 +1,10 @@
 terraform {
   # backend "local" {}
   backend "s3" {
-    bucket  = "infrastructure.somleng.org"
+    bucket  = "infrastructure.farmradio.org"
     key     = "bootstrap.tfstate"
     encrypt = true
-    region  = "ap-southeast-1"
+    region  = "eu-west-1"
   }
 
   required_version = ">= 0.12"
