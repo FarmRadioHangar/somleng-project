@@ -1,0 +1,6 @@
+Error saving current state: failed to upload state: ExpiredToken: The provided token has expired.
+        status code: 400, request id: E91725759598DFB8, host id: sPUYp+UkZskUfWoYRlskJX6qEz69qZnO+srvaNdsv2qiJWeY/aAMht7+VzEkMvGx1pNS/pxYXT0=
+
+Terraform encountered an error attempting to save the state before cancelling
+the current operation. Once the operation is complete another attempt will be
+made to save the final state.
